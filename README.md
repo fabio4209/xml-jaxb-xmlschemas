@@ -1,10 +1,4 @@
 # xml-jaxb-xmlschemas
-estudo jaxb
-
-```javascript
-<?xml version="1.0" encoding="UTF-8"?>
-```
-
 
 XML Schemas
 
@@ -22,11 +16,15 @@ Como criar um xml schema:
 
 Um XML Schema simples pode ser definido da seguinte forma:
 
+```javascript
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
 		targetNamespace="http://brejaonline.com.br/comum/v1"
 		xmlns:tns="http://brejaonline.com.br/comum/v1">
 </schema>
+
+```
+
 
 Um XML Schema é sempre definido dentro da tag schema. 
 
