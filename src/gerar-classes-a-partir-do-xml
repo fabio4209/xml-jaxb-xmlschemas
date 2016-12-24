@@ -1,0 +1,11 @@
+
+comando para gerar a classe a partir de um xml schema:
+
+"C:\Program Files\Java\jdk1.8.0_65\bin\xjc" -d ../java PessoaXMLSchema.xsd
+
+"C:\Program Files\Java\jdk1.8.0_65\bin\xjc" -d ../java PessoaXMLSchema.xsd
+
+
+
+Explicação sobre a sintaxe do comando xjc :
+http://www.thoughts-on-java.org/generate-your-jaxb-classes-in-second/

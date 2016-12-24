@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+
+A primeira linha do xml é chamada prólogo
+um XML tem seções específicas para fornecimento de instruções de
+processamento - ou seja, seções que serão interpretadas por processadores de XML
+que, no entanto, não fazem parte dos dados.
+
+diferente de tags regulares de XML(que têm o formato <tag></tag>),
+uma instrução de processamento tem o formato <?nome-da-instrução ?>.
+
+Abaixo um exemplo de xml completo e simples:
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<tag atributo="valor">conteúdo da tag</tag>
+
+ -->
