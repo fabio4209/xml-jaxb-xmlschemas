@@ -2,6 +2,8 @@
 
 XML Schemas
 
+Escrever um md: https://help.github.com/categories/writing-on-github/
+
 Definição:
 
 Trata-se de arquivos capazes de descrever o formato quem um determinado
@@ -26,13 +28,13 @@ Um XML Schema simples pode ser definido da seguinte forma:
 ```
 
 
-Um XML Schema é sempre definido dentro da tag schema. 
+Um XML Schema é sempre definido dentro da tag `<schema>`. 
 
 Esta tag deve conter, obrigatoriamente:
 
-1 - a referência para o XML Schema http://www.w3.org/2001/XMLSchema
+1 - a referência para o XML Schema http://www.w3.org/2001/XMLSchema </br>
 2 - o atributo targetNamespace, que aponta qual deve ser o namespace
-utilizado pelo XML que estiver sendo validado por este XML Schema.
+utilizado pelo XML que estiver sendo validado por este XML Schema.</br>
 3 - Por convenção, o próprio namespace é referenciado no documento através da declaração
 xmlns:tns, indicando que o prefixo tns poderá ser utilizado no escopo
 deste XML Schema (esse item não é obrigatório)
