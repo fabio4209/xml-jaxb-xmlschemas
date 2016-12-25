@@ -1,0 +1,5 @@
+Abaixo um exemplo de xml completo e simples:
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<tag atributo="valor">conteúdo da tag</tag>
+
