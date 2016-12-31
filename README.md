@@ -2,18 +2,6 @@
 
 XML Schemas
 
-Escrever um md: https://help.github.com/categories/writing-on-github/
-
-Definição:
-
-Trata-se de arquivos capazes de descrever o formato quem um determinado
-XML deve ter (lembre-se, XML é flexível a ponto de permitir qualquer informação).
-Um XML Schema, como um todo, é análogo à definição de classes em Java:
-define-se os pacotes (que, em um XML Schema, são definidos como namespaces) e
-as classes, propriamente ditas (que, em XML Schemas, são os tipos).
-Utiliza-se XML Schemas para que tanto o cliente quanto o servidor tenham um
-“acordo” a respeito do que enviar/receber (em termos da estrutura da informação).
-
 Como criar um xml schema:
 
 Um XML Schema simples pode ser definido da seguinte forma:
@@ -26,9 +14,6 @@ Um XML Schema simples pode ser definido da seguinte forma:
 </schema>
 
 ```
-
-
-Um XML Schema é sempre definido dentro da tag `<schema>`. 
 
 Esta tag deve conter, obrigatoriamente:
 
