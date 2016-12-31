@@ -2,11 +2,11 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.8-b130911.1802 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
-// Gerado em: 2016.12.25 às 07:39:14 PM BRST 
+// Gerado em: 2016.12.31 às 10:47:44 AM BRST 
 //
 
 
-package br.com.pessoal.pessoaxmlschema;
+package br.com.pessoa.xml.entidade;
 
 import javax.xml.bind.annotation.XmlRegistry;
 
@@ -14,7 +14,7 @@ import javax.xml.bind.annotation.XmlRegistry;
 /**
  * This object contains factory methods for each 
  * Java content interface and Java element interface 
- * generated in the br.com.pessoal.pessoaxmlschema package. 
+ * generated in the br.com.pessoa.xml.entidade package. 
  * <p>An ObjectFactory allows you to programatically 
  * construct new instances of the Java representation 
  * for XML content. The Java representation of XML 
@@ -30,7 +30,7 @@ public class ObjectFactory {
 
 
     /**
-     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: br.com.pessoal.pessoaxmlschema
+     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: br.com.pessoa.xml.entidade
      * 
      */
     public ObjectFactory() {

@@ -1,12 +1,9 @@
-package br.com.pessoal.xml;
+package br.com.pessoa.xml;
 
-import br.com.pessoal.pessoaxmlschema.PessoaFisica;
 import javax.xml.bind.JAXB;
+import br.com.pessoa.xml.entidade.PessoaFisica;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
     public static void main( String[] args )
