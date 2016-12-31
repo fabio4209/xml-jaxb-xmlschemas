@@ -13,7 +13,9 @@ public class App
     {
         PessoaFisica pessoaFisica = new PessoaFisica();
         pessoaFisica.setNome("Fabio");
+        pessoaFisica.setId(Long.valueOf(10));
         pessoaFisica.setCpf("689.300.381-15");
         
+        JAXB.marshal(pessoaFisica, System.out);
     }
 }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.pessoal.com.br/PessoaXMLSchema"
+	xmlns:tns="http://www.pessoal.com.br/PessoaXMLSchema"
+	elementFormDefault="qualified">
+
+	<simpleType name="CPF">
+		<restriction base="string">
+			<pattern value="\d{3}\.\d{3}\.\d{3}-\d{2}" />
+		</restriction>
+	</simpleType>
+
+	<complexType name="Pessoa" abstract="true">
+		<sequence>
+			<element name="nome" type="string" />
+		</sequence>
+		<attribute name="id" type="long" />
+	</complexType>
+
+	<complexType name="PessoaFisica">
+		<complexContent>
+			<extension base="tns:Pessoa">
+				<sequence>
+					<element name="cpf" type="tns:CPF" />
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+
+</schema>
