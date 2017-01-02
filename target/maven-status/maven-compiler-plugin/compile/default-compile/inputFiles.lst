@@ -1,5 +1,5 @@
-C:\Java\workspace\xml-jaxb-xmlschemas\src\main\java\br\com\pessoal\xml\App.java
-C:\Java\workspace\xml-jaxb-xmlschemas\src\main\java\br\com\pessoal\pessoaxmlschema\Pessoa.java
-C:\Java\workspace\xml-jaxb-xmlschemas\src\main\java\br\com\pessoal\pessoaxmlschema\PessoaFisica.java
-C:\Java\workspace\xml-jaxb-xmlschemas\src\main\java\br\com\pessoal\pessoaxmlschema\ObjectFactory.java
-C:\Java\workspace\xml-jaxb-xmlschemas\src\main\java\br\com\pessoal\pessoaxmlschema\package-info.java
+C:\Java\workspace\xml-jaxb-xmlschemas\src\main\java\br\com\pessoa\xml\entidade\PessoaFisica.java
+C:\Java\workspace\xml-jaxb-xmlschemas\src\main\java\br\com\pessoa\xml\App.java
+C:\Java\workspace\xml-jaxb-xmlschemas\src\main\java\br\com\pessoa\xml\entidade\package-info.java
+C:\Java\workspace\xml-jaxb-xmlschemas\src\main\java\br\com\pessoa\xml\entidade\ObjectFactory.java
+C:\Java\workspace\xml-jaxb-xmlschemas\src\main\java\br\com\pessoa\xml\entidade\Pessoa.java
