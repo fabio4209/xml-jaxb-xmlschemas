@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema" 
-	targetNamespace="http://www.pessoa.com.br/xml/entidade"
-	xmlns:tns="http://www.pessoa.com.br/xml/entidade">
+	targetNamespace="http://www.pessoa.com.br/xml/com-schema"
+	xmlns:tns="http://www.pessoa.com.br/xml/com-schema">
 
 	<simpleType name="CPF">
 		<restriction base="string">

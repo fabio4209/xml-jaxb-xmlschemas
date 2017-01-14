@@ -1,17 +1,17 @@
-package br.com.pessoa.xml;
+package br.com.xml.pessoa;
+
+import java.io.File;
 
 import javax.xml.bind.JAXB;
-import br.com.pessoa.xml.entidade.PessoaFisica;
 
+import br.com.xml.pessoa.entidades.PessoaFisica;
 
-public class App 
-{
-    public static void main( String[] args )
-    {
-        criarXMLUtilizandoSchema();
-    }
+public class GeradorXMLPessoa {
 
-    
+	public static void main(String[] args) {
+		criarXMLUtilizandoSchema();
+	}
+
 	private static void criarXMLUtilizandoSchema() {
 		PessoaFisica pessoaFisica = criarPessoaFisica();
         JAXB.marshal(pessoaFisica, System.out);
@@ -24,4 +24,5 @@ public class App
         pessoaFisica.setCpf("689.300.381-15");
 		return pessoaFisica;
 	}
+	
 }

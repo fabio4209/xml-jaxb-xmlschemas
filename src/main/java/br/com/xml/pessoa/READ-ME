@@ -1,0 +1,7 @@
+Esse pacote contém as classes que demonstram 
+como utilizar xml *COM* xml schemas.
+
+O pacote "entidades" contém as classes que são geradas 
+pelo comando utilitário "xjc".
+
+O arquivo do schema (.xsd) se encontra em src/main/resources

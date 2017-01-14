@@ -1,12 +1,12 @@
 //
-// Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.8-b130911.1802 
+// Este arquivo foi gerado pela Arquitetura JavaTM para Implementaï¿½ï¿½o de Referï¿½ncia (JAXB) de Bind XML, v2.2.8-b130911.1802 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
-// Gerado em: 2017.01.07 às 07:33:27 PM BRST 
+// Todas as modificaï¿½ï¿½es neste arquivo serï¿½o perdidas apï¿½s a recompilaï¿½ï¿½o do esquema de origem. 
+// Gerado em: 2017.01.07 ï¿½s 07:33:27 PM BRST 
 //
 
 
-package br.com.pessoa.xml.entidade;
+package br.com.xml.pessoa.entidades;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -17,7 +17,7 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java de PessoaFisica complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>O seguinte fragmento do esquema especifica o conteï¿½do esperado contido dentro desta classe.
  * 
  * <pre>
  * &lt;complexType name="PessoaFisica">
@@ -45,12 +45,10 @@ public class PessoaFisica
     protected String cpf;
 
     /**
-     * Obtém o valor da propriedade cpf.
-     * 
+     * Obtem o valor da propriedade cpf.
      * @return
      *     possible object is
      *     {@link String }
-     *     
      */
     public String getCpf() {
         return cpf;
