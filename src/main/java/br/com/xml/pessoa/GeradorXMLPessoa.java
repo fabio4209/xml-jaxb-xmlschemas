@@ -21,7 +21,7 @@ public class GeradorXMLPessoa {
 		PessoaFisica pessoaFisica = new PessoaFisica();
         pessoaFisica.setNome("Fabio");
         pessoaFisica.setId(Long.valueOf(10));
-        pessoaFisica.setCpf("689.300.381-15");
+        pessoaFisica.setCpf("888.999.777-11");
 		return pessoaFisica;
 	}
 	
