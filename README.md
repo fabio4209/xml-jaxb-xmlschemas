@@ -2,7 +2,7 @@
 
 XML Schemas
 
-Como criar um xml schema:
+### :: Estrutura Básica de um xml schema ::
 
 Um XML Schema simples pode ser definido da seguinte forma:
 
@@ -14,18 +14,17 @@ Um XML Schema simples pode ser definido da seguinte forma:
 </schema>
 
 ```
+Observações sobre o exemplo acima :
 
-Esta tag deve conter, obrigatoriamente:
-
-1 - a referência para o XML Schema http://www.w3.org/2001/XMLSchema </br>
-2 - o atributo targetNamespace, que aponta qual deve ser o namespace
-utilizado pelo XML que estiver sendo validado por este XML Schema.</br>
-3 - Por convenção, o próprio namespace é referenciado no documento através da declaração
+1. a referência para o XML Schema http://www.w3.org/2001/XMLSchema (**obrigatório**)
+2. o atributo targetNamespace, que aponta qual deve ser o namespace
+utilizado pelo XML que estiver sendo validado por este XML Schema. (**obrigatório**)
+3. Por convenção, o próprio namespace é referenciado no documento através da declaração
 xmlns:tns, indicando que o prefixo tns poderá ser utilizado no escopo
-deste XML Schema (esse item não é obrigatório)
+deste XML Schema (**opcional**)
 
 
-Próximo passo - Definindo os elementos do XML
+### :: Definindo os elementos do XML ::
 
 Os elementos são utilizados para definir informações a respeito das tags: nome
 da tag, número de repetições permitido, quais sub-tags são permitidas, quais atributos
