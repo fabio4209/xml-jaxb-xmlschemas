@@ -34,16 +34,19 @@ uma tag deve ter, etc.
 Por exemplo, para definir uma tag nome num XML Schema, basta utilizar
 o seguinte:
 
+```javascript
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
 targetNamespace="http://brejaonline.com.br/comum/v1"
 xmlns:tns="http://brejaonline.com.br/comum/v1">
 	<element name="nome" type="string" />
 </schema>
+```
 
 Tipo Complexos são definidos a partir da junção de elementos de tipos simples e/ou outros 
-tipos complexos
+tipos complexos:
 
+```javascript
 <complexType name="Endereco">
 	<sequence>
 		<element name="cep" type="tns:CEP" />
@@ -51,10 +54,11 @@ tipos complexos
 	</sequence>
 </complexType>
 
-Note que a definição do tipo complexo envolve a tag sequence. Esta tag é utilizada
-para determinar que os elementos nela envolvidos devem ser inseridos nesta
-ordem.
+```
+Na definição <complexType> pode ser incluída a tag sequence. Esta tag é utilizada
+para determinar que os elementos nela envolvidos devem ser inseridos de acordo 
+com a ordem definida.
 
-Note a referência ao tipo “CEP”, definido anteriormente. O prefixo tns, conforme
-mencionado, faz referência ao namespace do próprio arquivo, ou seja, no exemplo acima
+Em type="tns:CEP", note a referência ao tipo “CEP”, definido anteriormente. 
+O prefixo tns, conforme mencionado, faz referência ao namespace do próprio arquivo, ou seja, no exemplo acima
 deve haver uma declaração <simpleType name="CEP" />
