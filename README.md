@@ -55,10 +55,10 @@ tipos complexos:
 </complexType>
 
 ```
-Na definição <complexType> pode ser incluída a tag sequence. Esta tag é utilizada
+Na definição `<complexType>` pode ser incluída a tag sequence. Esta tag é utilizada
 para determinar que os elementos nela envolvidos devem ser inseridos de acordo 
 com a ordem definida.
 
-Em type="tns:CEP", note a referência ao tipo “CEP”, definido anteriormente. 
+Em `type="tns:CEP"`, note a referência ao tipo “CEP”, definido anteriormente. 
 O prefixo tns, conforme mencionado, faz referência ao namespace do próprio arquivo, ou seja, no exemplo acima
-deve haver uma declaração <simpleType name="CEP" />
+deve haver uma declaração `<simpleType name="CEP"` no início do schema.  
