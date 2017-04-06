@@ -1,7 +1,5 @@
 # xml-jaxb-xmlschemas
 
-XML Schemas
-
 ### :: Estrutura Básica de um xml schema ::
 
 Um XML Schema simples pode ser definido da seguinte forma:
